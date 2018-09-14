@@ -91,6 +91,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Controls\MaterialForm.resx">
+      <DependentUpon>MaterialForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -101,6 +104,16 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Roboto-Medium.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bangna-new.ttf" />
+    <None Include="Resources\Kanit-Bold.ttf" />
+    <None Include="Resources\Kanit-Light.ttf" />
+    <None Include="Resources\Kanit-Regular.ttf" />
+    <None Include="Resources\Kanit-Thin.ttf" />
+    <None Include="Resources\supermarket.ttf" />
+    <None Include="Resources\ThaiSansNeue-Regular.ttf" />
+    <None Include="Resources\THSarabunNew.ttf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

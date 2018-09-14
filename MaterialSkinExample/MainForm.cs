@@ -27,8 +27,8 @@ namespace MaterialSkinExample
 			//Define
 			var data = new[]
 	        {
-		        new []{"Lollipop", "392", "0.2", "0"},
-				new []{"KitKat", "518", "26.0", "7"},
+		        new []{"ทองคำแท่งหนัก 1 บาท", "392", "0.2", "0"},
+				new []{"ทองคำรูปพรรณ 50 สตางค์", "518", "26.0", "7"},
 				new []{"Ice cream sandwich", "237", "9.0", "4.3"},
 				new []{"Jelly Bean", "375", "0.0", "0.0"},
 				new []{"Honeycomb", "408", "3.2", "6.5"}
@@ -76,6 +76,11 @@ namespace MaterialSkinExample
         private void materialFlatButton4_Click(object sender, EventArgs e)
         {
             materialProgressBar1.Value = Math.Max(materialProgressBar1.Value - 10, 0);
+        }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

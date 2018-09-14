@@ -63,6 +63,56 @@ namespace MaterialSkin.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] bangna_new {
+            get {
+                object obj = ResourceManager.GetObject("bangna_new", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Kanit_Bold {
+            get {
+                object obj = ResourceManager.GetObject("Kanit_Bold", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Kanit_Light {
+            get {
+                object obj = ResourceManager.GetObject("Kanit_Light", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Kanit_Regular {
+            get {
+                object obj = ResourceManager.GetObject("Kanit_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Kanit_Thin {
+            get {
+                object obj = ResourceManager.GetObject("Kanit_Thin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] Roboto_Medium {
             get {
                 object obj = ResourceManager.GetObject("Roboto_Medium", resourceCulture);
@@ -76,6 +126,36 @@ namespace MaterialSkin.Properties {
         internal static byte[] Roboto_Regular {
             get {
                 object obj = ResourceManager.GetObject("Roboto_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] supermarket {
+            get {
+                object obj = ResourceManager.GetObject("supermarket", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] ThaiSansNeue_Regular {
+            get {
+                object obj = ResourceManager.GetObject("ThaiSansNeue_Regular", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] THSarabunNew {
+            get {
+                object obj = ResourceManager.GetObject("THSarabunNew", resourceCulture);
                 return ((byte[])(obj));
             }
         }
